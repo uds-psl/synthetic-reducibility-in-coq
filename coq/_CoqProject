@@ -1,0 +1,24 @@
+-R . HOU
+
+-install none
+# COQDOCFLAGS = "--charset utf-8 --parse-comments --with-header ../website/resources/header.html --with-footer ../website/resources/footer.html --index indexpage"
+COQDOCFLAGS = "--charset utf-8 -s --parse-comments --with-header ../website/resources/header.html --with-footer ../website/resources/footer.html --index indexpage"
+
+Cantor_Pairing_Coq.v
+Preliminaries_Coq.v
+Preliminaries_Lists_Coq.v
+
+Definitions_Coq.v
+
+Preliminaries_Corresponding_Coq.v
+
+Recursive_Mu_Operator_Coq.v
+Synthetic_Computability_Theory_Coq.v
+
+Myhill_Coq.v
+Reducibility_Characterizations_Coq.v
+
+Infinite_Predicates_Coq.v
+
+Simple_Predicates_Coq.v
+Reducibility_Distinctions_Coq.v
